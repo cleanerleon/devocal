@@ -1,7 +1,7 @@
 import numpy as np
 import librosa
 
-def compute_and_split_mel(audio, cfg):
+def compute_and_split_mel(audio, config):
     # 1. 计算完整梅尔频谱
     # segment_length = cfg.duration
     # overlap = cfg.overlap
